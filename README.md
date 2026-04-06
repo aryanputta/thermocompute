@@ -296,11 +296,3 @@ The engine is data-agnostic: any source that produces $(T, P, x_i, G)$ tuples pl
 - `pytest` — test suite
 
 ---
-
-## Design principles
-
-- **No fake data.** Every benchmark uses synthetically generated ground truth from known thermodynamic models, not random noise.
-- **No unused features.** Every model and pipeline stage is exercised in tests and benchmarks.
-- **Every claim has metrics.** All accuracy numbers are computed at runtime from `benchmark.py`.
-- **Physics-constrained.** Mass balance and non-negativity are hard constraints in the solver, not soft penalties.
-- **Test-driven.** Physical laws are encoded as assertions, not documentation.
