@@ -1,0 +1,10 @@
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.3
+pandas>=2.0
+matplotlib>=3.7
+pytest>=7.4
+# Optional: Materials Project API
+# mp-api>=0.37
+# Optional: PyTorch for deep ML scaling
+# torch>=2.0
